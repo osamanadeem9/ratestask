@@ -83,26 +83,26 @@ curl "http://127.0.0.1/rates/?date_from=2016-01-01&date_to=2016-01-10&origin=CNS
 ```
 9. The reponse is shown in the screenshot below:
 <p align="center">
-<img src="/outputs/s1.PNG" width="480" height="258" />
+<img src="/outputs/s1.PNG" width="600" height="322" />
 <!-- <img src = "/outputs/s1.PNG"> -->
 </p>
 
 # Working:
 1. Running tests:
 <p align="center">
-<img src="/outputs/s5.PNG" width="480" height="258" />
+<img src="/outputs/s5.PNG" width="600" height="322" />
 </p>
 
-3. Running locally using python command:
+2. Running locally using python command:
 <p align="center">
-<img src="/outputs/s2.PNG" width="480" height="258" />
+<img src="/outputs/s2.PNG" width="600" height="322" />
 </p>
 3. Running using docker compose:
 <p align="center">
-<img src="/outputs/s3.PNG" width="480" height="258" />
+<img src="/outputs/s3.PNG" width="600" height="322" />
 </p>
 <p align="center">
-<img src="/outputs/s4.PNG" width="480" height="258" />
+<img src="/outputs/s4.PNG" width="600" height="322" />
 </p>
 
 
