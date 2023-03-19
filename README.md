@@ -74,7 +74,7 @@ docker compose up -d db
 docker compose up --build web
 ```
 ```cmd
-docker ps -a    # check if both container are up and running
+docker ps -a    # check if both containers are up and running
 ```
 
 8. For a sample request, either open this [link](http://127.0.0.1/rates/?date_from=2016-01-01&date_to=2016-01-10&origin=CNSGH&destination=north_europe_main) or head on to a new cmd terminal and enter the following:
