@@ -1,0 +1,23 @@
+For docker commands:
+https://www.tinystacks.com/blog-post/flask-crud-api-with-postgres/
+
+For docker-compose file:
+https://github.com/OlaAde/ratestask
+
+For inserting sql file to local db:
+-   psql -U username -d myDataBase -a -f myInsertFile
+-   reference: https://stackoverflow.com/a/12085561
+
+For inserting sql file to remote db:
+-   psql -h host -U username -d myDataBase -a -f myInsertFile
+
+
+Docker steps:
+-   Reference: https://www.tinystacks.com/blog-post/flask-crud-api-with-postgres/
+
+-   docker compose up -d db
+-   docker exec -it db psql -U postgres
+-   \dt         # displays tables in db
+-   \q          # to quit postgres
+-   docker compose up --build pythonapp     # where pythonapp is image name
+-   docker ps -a            # check running containers
