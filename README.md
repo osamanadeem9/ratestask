@@ -106,7 +106,7 @@ curl "http://127.0.0.1/rates/?date_from=2016-01-01&date_to=2016-01-10&origin=CNS
 </p>
 
 
-# Xeneta's Explanation:
+# Database Information:
 ## Data definition
 
 We are providing you with a small set of simplified real-world data. A
@@ -140,7 +140,7 @@ Individual daily prices between ports, in USD.
 * The day for which the price is valid
 * The price in USD
 
-## Assignment: HTTP-based API
+<!-- ## Assignment: HTTP-based API
 
 Develop an [HTTP-based API](#task-1-http-based-api) capable of handling the GET request described below. Our stack is based on Flask, but you are free to choose any Python framework you like. All data returned is expected to be in JSON format. Please demonstrate your knowledge of SQL (as opposed to using ORM querying tools).
 
@@ -244,3 +244,4 @@ docker exec -e PGPASSWORD=ratestask -it ratestask psql -U postgres
 Keep in mind that any data written in the Docker container will
 disappear when it shuts down. The next time you run it, it will start
 with a clean state.
+ -->
